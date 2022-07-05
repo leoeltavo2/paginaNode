@@ -1,0 +1,90 @@
+h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.bg-primary {
+  background: rgba(0, 123, 255, 0.568) !important;
+}
+.navbar a {
+  margin-left: 15%;
+}
+.olvidar {
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgb(0, 16, 88);
+  margin: 5% auto;
+  padding: 20px;
+  text-align: center;
+}
+/* ++++++++++++++++++++MARGEN BOTON++++++++++++++++++++ */
+.margen {
+  margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .olvidar {
+    width: 300px;
+    height: 460px;
+    padding: 5px;
+    display: block;
+  }
+}
+/* ************************FOOTER******************************** */
+.container {
+  display: flex;
+}
+
+.columna1 {
+  width: 30%;
+  margin-right: 50px;
+}
+.columna2 p {
+  display: flex;
+}
+.columna3 {
+  margin-left: 50px;
+}
+footer {
+  background: rgba(158, 203, 252, 0.568);
+  margin-top: 15px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.social_icon_footer span {
+  font-size: 50px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-facebook-square:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .columna1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .columna2 {
+    border-top: 1px solid black;
+  }
+  .columna2 p {
+    display: flex;
+    justify-content: center;
+  }
+  .columna3 {
+    border-top: 1px solid black;
+  }
+}

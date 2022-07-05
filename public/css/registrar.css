@@ -1,0 +1,96 @@
+h1 {
+  font-weight: 700;
+}
+.bg-primary {
+  background: rgba(0, 123, 255, 0.568) !important;
+}
+.navbar a {
+  margin-left: 15%;
+}
+
+/* ************************registro******************************** */
+.registro {
+  width: 500px;
+  height: 520px;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+.registro input {
+  width: 400px;
+}
+.registro button {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .registro {
+    width: 400px;
+  }
+}
+.error {
+  text-align: center;
+  font-weight: 700;
+}
+/* ************************FOOTER******************************** */
+.container {
+  display: flex;
+}
+
+.columna1 {
+  width: 30%;
+  margin-right: 50px;
+}
+.columna2 p {
+  display: flex;
+}
+.columna3 {
+  margin-left: 50px;
+}
+footer {
+  background: rgba(158, 203, 252, 0.568);
+  margin-top: 15px;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.social_icon_footer span {
+  font-size: 50px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-facebook-square:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .columna1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .columna2 {
+    border-top: 1px solid black;
+  }
+  .columna2 p {
+    display: flex;
+    justify-content: center;
+  }
+  .columna3 {
+    border-top: 1px solid black;
+  }
+}

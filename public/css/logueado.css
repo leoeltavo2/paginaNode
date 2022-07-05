@@ -1,0 +1,420 @@
+html {
+  scroll-behavior: smooth;
+}
+.imgrande {
+  width: 250px;
+  height: 250px;
+}
+/* *****************ARRIBA******************* */
+.arriba {
+  display: none;
+  padding: 20px;
+  background: rgb(0, 16, 88);
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 1;
+}
+
+.bg-primary {
+  background: rgba(0, 123, 255, 0.568) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: blue;
+}
+/* *****************LOGIN******************* */
+.container {
+  height: 100%;
+  align-content: center;
+}
+.dropdown-menu {
+  width: 200px;
+  text-align: center;
+}
+#cor,
+#nom,
+#ape {
+  font-weight: bold;
+}
+label {
+  color: blue;
+  margin-bottom: 0;
+}
+.dropdown-item {
+  color: red;
+}
+.us {
+  display: flex;
+}
+.us .fas {
+  font-size: 20px;
+}
+.us i {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.us #navbarDropdown {
+  color: blue;
+  font-weight: 900;
+}
+.us .borde {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+nav .card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgb(0, 16, 88);
+  border: 1px solid;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+nav .card-header h3 {
+  color: white;
+  text-align: center;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ff0000;
+  color: white;
+  border: 0;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: white;
+  background-color: #ff3333;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
+}
+nav .card-header {
+  border-bottom: 1px solid white;
+}
+nav .card-footer {
+  border-top: 1px solid white;
+}
+
+a.color {
+  color: rgb(255, 60, 60);
+}
+/* *********MENU DESPLEGABLE**************/
+#btn-menu {
+  display: none;
+}
+.fa-bars {
+  display: none;
+}
+.fa-bars:hover {
+  cursor: pointer;
+  background: white;
+}
+.header .fa-bars {
+  width: 50px;
+}
+@media (max-width: 991px) {
+  .fa-bars {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  .collapse {
+    position: relative;
+  }
+  .navbar li {
+    margin-top: 10px;
+    border-top: 1px solid white;
+  }
+}
+
+/* ***************CARRUSEL****************** */
+.carrusel .carousel,
+.carrusel .carousel-inner img {
+  width: 100%;
+  height: 570px;
+}
+.carrusel .carousel {
+  margin-left: auto;
+  margin-right: auto;
+}
+.carrusel .carousel-control-prev-icon,
+.carrusel .carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.carrusel .carousel-indicators li {
+  width: 25px;
+  height: 10px;
+  background: rgb(0, 16, 88);
+  border-radius: 90px;
+}
+
+/* ************************mueble******************************** */
+.mueble {
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/16/19/47/wood-2072273_960_720.jpg");
+  background-size: cover;
+  padding: 20px 0;
+}
+.mueble img {
+  width: 400px;
+}
+
+/* ************************Productos******************************** */
+.fondo {
+  width: 100%;
+  background: #daf9fb93;
+}
+.producto {
+  text-align: center;
+  width: 80%;
+  padding-top: 20px;
+}
+.producto img {
+  margin: 10px 30px;
+  padding: 10px;
+  border: 5px solid rgb(5, 37, 177);
+  opacity: 0.9;
+}
+.producto .row {
+  margin-top: 60px;
+}
+.producto img:hover {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  border: none;
+}
+.producto .col {
+  overflow: hidden;
+}
+@media screen and (max-width: 1150px) {
+  .producto {
+    width: 100%;
+  }
+  .imgrande {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .producto .row {
+    display: block;
+    margin: 0;
+  }
+  .imgrande {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* ************************MARCAS******************************** */
+.marca {
+  text-align: center;
+}
+.marca .carousel,
+.marca .carousel-inner img {
+  width: 60%;
+  height: 200px;
+}
+.marca .row .col {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.marca img {
+  padding: 45px;
+}
+.marca .carousel-control-prev-icon,
+.marca .carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background: black;
+  border-radius: 50px;
+}
+.marca .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.marca .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.marca .carousel-control-prev,
+.marca .carousel-control-next {
+  width: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .marca .carousel,
+  .marca .carousel-inner img {
+    width: 70%;
+    height: 150px;
+  }
+  .marca img {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .marca .carousel,
+  .marca .carousel-inner img {
+    width: 80%;
+    height: 100px;
+  }
+  .marca img {
+    padding: 10px;
+  }
+}
+/* ************************TARJETA******************************** */
+.tarjeta {
+  text-align: center;
+  width: 65%;
+}
+.tarjeta .row {
+  margin-bottom: 15px;
+}
+.tarjeta .card {
+  height: 250px;
+}
+.tarjeta img {
+  width: 230px;
+}
+.tarjeta .card-header {
+  color: blue;
+}
+@media screen and (max-width: 1360px) {
+  .tarjeta {
+    width: 90%;
+  }
+  /* .tarjeta .card {
+    width: 270px;
+  } */
+}
+@media screen and (max-width: 1007px) {
+  .tarjeta img {
+    width: 150px;
+  }
+  .tarjeta .card {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .tarjeta {
+    width: 55%;
+  }
+
+  .tarjeta .col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* ************************FOOTER******************************** */
+.container {
+  display: flex;
+}
+
+.columna1 {
+  width: 30%;
+  margin-right: 50px;
+}
+.columna2 p {
+  display: flex;
+}
+.columna3 {
+  margin-left: 50px;
+}
+footer {
+  background: rgba(158, 203, 252, 0.568);
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.social_icon_footer span {
+  font-size: 50px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-facebook-square:hover {
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .columna1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .columna2 {
+    border-top: 1px solid black;
+  }
+  .columna2 p {
+    display: flex;
+    justify-content: center;
+  }
+  .columna3 {
+    border-top: 1px solid black;
+  }
+}

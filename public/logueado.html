@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/logueado.css">
+
+    <!-- ICONO -->
+    <link rel="icon" href="img/aceros.ico">
+    <title>Aceros y Cementos de Zacapu</title>
+</head>
+
+<body>
+    <span class="arriba"><i class="fas fa-chevron-up"></i></span>
+    <!-- BARRA DE NAVEGACION -->
+    <div class="header">
+        <input type="checkbox" name="menu1" id="btn-menu">
+        <span><i class="fas fa-bars" data-toggle="collapse" href="#navbarSupportedContent"></i></span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <a href="#" onclick="window.location.reload(true);">
+            <img src="img/aceros.PNG" alt="aceros" width="160px">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#producto"><strong>Productos</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tarjeta"><strong>Sistema de Pago</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mueble"><strong>Mueble</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#columna1"><strong>Acerca de</strong></a>
+                </li>
+                <li class="nav-item dropdown us">
+                    <div class="borde">
+                        <i class="fas fa-user mt-2"></i>
+                    </div>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><strong>
+                            cuenta</strong>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <label for="cor">correo:</label>
+                        <a class="dropdown-item" id="cor">correo</a>
+                        <label for="nom">nombre:</label>
+                        <a class="dropdown-item" id="nom">nombre</a>
+                        <label for="ape">apellido:</label>
+                        <a class="dropdown-item" id="ape">apellido</a>
+                        <a class="dropdown-item" id="salir" href="#">Salir</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- BARRA DE NAVEGACION -->
+
+    <!-- CARRUSEL -->
+    <div class="carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/cosas.jpg" class="d-block w-100" alt="cosas">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mueble_bañojpg.jpg" class="d-block w-100" alt="mueble baño">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/techo.jpg" class="d-block w-100" alt="techo">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/alambre.jpg" class="d-block w-100" alt="alambre">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/ventanas.jpg" class="d-block w-100" alt="ventanas">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- CARRUSEL -->
+    <!-- MUEBLE -->
+    <div class="mueble mt-5" id="mueble">
+        <h2><Strong>MUEBLES</Strong></h2>
+        <h5>Puedes pedirnos que diseñemos tu mueble con lo que te guste.</h5>
+        <h4 class="mt-5 mb-2"><strong>
+                Tú lo imaginas, nosotros lo creamos.
+                Tus sueños, nuestro trabajo</strong>
+        </h4>
+        <img src="img/mueble.jpg" alt="mueble">
+    </div>
+    <!-- MUEBLE -->
+
+
+    <!-- PRODUCTOS -->
+    <div class="fondo">
+        <div class="producto mx-auto mt-5" id="producto">
+            <h2><Strong>PRODUCTOS</Strong></h2>
+            <div class="row">
+                <div class="col">
+                    <h4><strong>Baños</strong></h4>
+                    <img src="img/baños.jpg" class="imgrande" alt="baño">
+                </div>
+                <div class="col">
+                    <h4><strong>Muebles para Tarja</strong></h4>
+                    <img src="img/tarja.jpg" class="imgrande" alt="tarja">
+                </div>
+                <div class="col">
+                    <h4><strong>Azulejos</strong></h4>
+                    <img src="img/azulejos.jpg" class="imgrande" alt="azulejos">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4><strong>Cocinas Integrales</strong></h4>
+                    <img src="img/integral.jpg" class="imgrande" alt="cocinas intregrales">
+                </div>
+                <div class="col">
+                    <h4><strong>Mallas Metálicas</strong></h4>
+                    <img src="img/malla.jpg" class="imgrande" alt="mallas metalicas">
+                </div>
+                <div class="col">
+                    <h4><strong>Aerosoles</strong></h4>
+                    <img src="img/erosol.jpg" class="imgrande" alt="aerosoles">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4><strong>Brochas</strong></h4>
+                    <img src="img/brochas.jpg" class="imgrande" alt="brochas">
+                </div>
+                <div class="col">
+                    <h4><strong>Cintas</strong></h4>
+                    <img src="img/cintas.jpg" class="imgrande" alt="cintas">
+                </div>
+                <div class="col">
+                    <h4><strong>Focos</strong></h4>
+                    <img src="img/focos.jpg" class="imgrande" alt="focos">
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col">
+                    <h4><strong>Bombas de Agua</strong></h4>
+                    <img src="img/bombas.jpg" class="imgrande" alt="bombas de agua">
+                </div>
+                <div class="col">
+                    <h4><strong>Calentadores Solares</strong></h4>
+                    <img src="img/solar.jpg" class="imgrande" alt="calentadores solares">
+                </div>
+                <div class="col">
+                    <h4><strong>Block de Cemento</strong></h4>
+                    <img src="img/block.jpg" class="imgrande" alt="block de cemento">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRODUCTOS -->
+
+
+
+    <!-- MARCAS -->
+    <div class="marca mt-5">
+        <h2><strong>TRABAJAMOS CON LAS SIGUIENTES MARCAS</strong></h2>
+        <div id="carousel" class="carousel slide mx-auto" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/apasco.jpg" class="d-block w-100" alt="apasco">
+                        </div>
+                        <div class="col">
+                            <img src="img/byp.png" class="d-block w-100" alt="byp">
+                        </div>
+                        <div class="col">
+                            <img src="img/calorex.png" class="d-block w-100" alt="calorex">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/cinsa.jpg" class="d-block w-100" alt="cinsa">
+                        </div>
+                        <div class="col">
+                            <img src="img/FANDELI.png" class="d-block w-100" alt="fandeli">
+                        </div>
+                        <div class="col">
+                            <img src="img/foy.jpg" class="d-block w-100" alt="foy">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/frantor.png" class="d-block w-100" alt="frantor">
+                        </div>
+                        <div class="col">
+                            <img src="img/fulgore.png" class="d-block w-100" alt="fulgore">
+                        </div>
+                        <div class="col">
+                            <img src="img/geopower.png" class="d-block w-100" alt="geopower">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/hermex.jpg" class="d-block w-100" alt="hermex">
+                        </div>
+                        <div class="col">
+                            <img src="img/igoto.png" class="d-block w-100" alt="igoto">
+                        </div>
+                        <div class="col">
+                            <img src="img/metalflu.jpg" class="d-block w-100" alt="metalflu">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/munich.jpg" class="d-block w-100" alt="munich">
+                        </div>
+                        <div class="col">
+                            <img src="img/optimus.png" class="d-block w-100" alt="optimus">
+                        </div>
+                        <div class="col">
+                            <img src="img/pegaduro.jpg" class="d-block w-100" alt="pega duro">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/pretul.jpg" class="d-block w-100" alt="pretul">
+                        </div>
+                        <div class="col">
+                            <img src="img/rotinac.jpg" class="d-block w-100" alt="rotinac">
+                        </div>
+                        <div class="col">
+                            <img src="img/sanelec.png" class="d-block w-100" alt="sanelec">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/santul.png" class="d-block w-100" alt="santul">
+                        </div>
+                        <div class="col">
+                            <img src="img/surtek.jpg" class="d-block w-100" alt="surtek">
+                        </div>
+                        <div class="col">
+                            <img src="img/toolcraft.jpg" class="d-block w-100" alt="toolcraft">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/traka_.png" class="d-block w-100" alt="traka">
+                        </div>
+                        <div class="col">
+                            <img src="img/truper.png" class="d-block w-100" alt="truper">
+                        </div>
+                        <div class="col">
+                            <img src="img/volteck.png" class="d-block w-100" alt="volteck">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- MARCAS -->
+
+    <!-- TARJETA -->
+    <div class="tarjeta mx-auto mt-5" id="tarjeta">
+        <h2><Strong>FACILIDADES DE PAGO</Strong></h2>
+        <h5 class="mb-5">Aceptamos las siguientes tarjetas para que se te facilite el pago del producto, además de
+            contar
+            con un sistema de apartado.
+        </h5>
+        <div class="row">
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">SANTANDER</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.santander.com.mx/personas/assets/img/tarjetas-de-credito/gr/Wallet_BlackUnlimited_MC_1364x884_Mar2018.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">BANORTE</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.banorte.com/wps/wcm/connect/banorte/549bf67a-afd6-44b1-82e1-1aebd62084e6/Banorte-TDC-Clasica.png?MOD=AJPERES&CACHEID=549bf67a-afd6-44b1-82e1-1aebd62084e6"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">HSBC</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.hsbc.com.mx/content/dam/hsbc/mx/images/cuentas/img_cta_tdd.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">BANAMEX</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.banamex.com/landings/tarjetas-de-credito/img/tarjeta-credito-clasica-banamex-beneficios-salud.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">BBVA BANCOMER</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.kardmatch.com.mx/uploads/mi-primera-tarjeta-bbva-bancomer-grande.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">BANCO AZTECA</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.bancoazteca.com.mx/content/dam/azteca/producto/tarjeta/debito-azteca/tarjeta-azteca-debito-mastercard.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">AFIRME</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.afirme.com/dam/jcr:629e31a9-b5e5-4641-92ca-0dc047099066/Tarjeta-credito-clasica-afirme.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">SCOTIABANK</div>
+                    <div class="card-body text-primary">
+                        <img src="https://www.kardmatch.com.mx/uploads/tarjeta-scotiabank-tasa-baja-clasica-chica.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">COPPEL</div>
+                    <div class="card-body text-primary">
+                        <img src="https://cdn2.coppel.com/wcsstore/AuroraStorefrontAssetStore/emarketing/landings/solicitud_credito/tarjeta_coppel_min.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TARJETA -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mt-5 pt-4">
+        <div class="container">
+            <div class="columna1" id="columna1">
+                <h6 class="text-uppercase mb-4 font-weight-bold">acerca de</h6>
+                <p>Aceros y cementos de zacapu es una empresa 100% mexicana dedicada a la venta de materiales
+                    para tu casa, ferretería y mueblería. Los muebles son hechos por nuestros mejores carpinteros
+                    y los diseños los puedes hacer tu.
+                </p>
+            </div>
+            <div class="columna2">
+                <h6 class="text-uppercase mb-4 font-weight-bold">contacto</h6>
+                <p>
+                    <i class="fas fa-home mb-4 mr-3"></i> Zacapu, Michoacán. México</p>
+                <p>
+                    <i class="fas fa-phone mb-4 mr-3"></i> + 01 432 35 39 42</p>
+                <p>
+                    <i class="fas fa-phone mb-4 mr-3"></i> + 01 432 35 68 80</p>
+                <p>
+                    <i class="fas fa-envelope mb-4 mr-3"></i> acerosycementoszacapu@gmail.com</p>
+            </div>
+            <div class="columna3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">estamos ubicados en...</h6>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.596128281094!2d-101.78665768577544!3d19.8147140334868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842dc93999b58b5f%3A0xa589f44eac2e497d!2sAceros%20y%20Cementos%20de%20Zacapu!5e0!3m2!1ses-419!2smx!4v1588733293551!5m2!1ses-419!2smx"
+                    width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+        <hr>
+        <div class="social">
+            <p class="text-center text-md-left text-uppercase">© 2020 Copyright:
+                <strong> Aceros y Cementos de Zacapu, S.A de C.V.</strong>
+            </p>
+            <div class="d-block social_icon_footer ml-auto">
+                <a href="https://www.facebook.com/Aceros-Y-Cementos-De-Zacapu-1217139025028241/">
+                    <span><i class="fab fa-facebook-square"></i></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- +++++++++++++++++++SCRIPTS++++++++++++++++++++ -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".arriba").click(function () {
+                $("body,html").animate({
+                    scrollTop: "0"
+                }, 500)
+            })
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) $(".arriba").slideDown(300);
+                else $(".arriba").slideUp(300);
+            })
+        })
+    </script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
